@@ -19,13 +19,15 @@ function About() {
             alt="man-svgrepo"
           />
           <div className="AboutBio">
-            Hello! My name is <strong>Your Name</strong> Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged.
+            👋 Hi, I'm <strong>Favour Ejiofor</strong>, a dedicated coder who thrives on turning
+            complex problems into elegant solutions. With a strong foundation in
+            [HTML, CSS, SCSS, JavaScript, MERN], I specialize in creating clean,
+            efficient, and scalable code. My passion for innovative technology
+            drives me to continuously learn and adapt, ensuring I stay at the
+            forefront of industry trends. Whether it’s developing robust
+            applications or streamlining processes, I bring creativity and
+            precision to every project. Let's build the future together, one
+            line of code at a time. 🚀
           </div>
           <div className="AboutBio tagline2">
             I have become confident using the following technologies.

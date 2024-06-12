@@ -3,6 +3,7 @@ import axios from "axios";
 import ContactForm from "./ContactForm";
 import ContactCard from "./ContactCard";
 import "./App.css";
+import "./contact.css";
 
 const MainApp = () => {
   const [contacts, setContacts] = useState([]);
@@ -227,7 +228,7 @@ const MainApp = () => {
   return (
     <div className="FormApp">
       <header className="FormApp-header">
-        <h1>Contact Messages</h1>
+        <h1 style={{fontSize: 25}}>Contact Messages</h1>
         {contacts.length === 0 ? (
           <p>No contact messages</p>
         ) : (

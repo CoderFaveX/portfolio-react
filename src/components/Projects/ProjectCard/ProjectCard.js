@@ -11,7 +11,7 @@ function ProjectCard() {
   return (
     <>
       {ProjectList.map((list, index) => (
-        <Card key={index}>
+        <Card key={list.id}>
           <CardLeft>
             <img src={list.img} alt={list.name} />
           </CardLeft>

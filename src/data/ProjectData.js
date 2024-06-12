@@ -1,38 +1,36 @@
 // --------------------------------------- Project List
+import img1 from "../Assets/image1.png";
+import img2 from "../Assets/image2.png";
+import img3 from "../Assets/image3.png";
+
 export const ProjectList = [
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/project_1.png",
-    title: "Spense",
-    description: "Codewell challenge, Spense is a landing page for writers.",
-    tech_stack: "Html, Css, Javascript",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link",
+    id: 1,
+    img: img1,
+    title: "Favitech Team",
+    description: "I belong to a team of evelopers and made a large contribution towards the development of our joint portfolio.",
+    tech_stack: "Html, Css, Scss, Javascript",
+    github_url: "https://github.com/CoderFaveX/favitech.git",
+    demo_url: "https://favitech.vercel.app",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/project_2.png",
-    title: "Fiber",
+    id: 2,
+    img: img2,
+    title: "Portfolio Templates",
     description:
-      "An online portfolio generator. Great to practice flex/grid layouts, absolute positioning and sliders.",
-    tech_stack: "Html, Css, Javascript",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link",
+      "An online portfolio template. Great to practice flex/grid layouts, absolute positioning and sliders.",
+    tech_stack: "React, Css, Scss",
+    github_url: "https://github.com/CoderFaveX/reactfolio.git",
+    demo_url: "https://reactfolio-psi.vercel.app",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/portfolio.png",
+    id: 3,
+    img: img3,
     title: "Portfolio",
-    description: "Ofcourse i made my own personal portfolio website.",
-    tech_stack: "Reactjs, Css",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link/",
-  },
-  {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/project_3.png",
-    title: "Ecommerce website",
-    description:
-      "Created simple ecommerce website using reactjs and react-use-cart plugin.",
-    tech_stack: "Reactjs, Css",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link",
+    description: "Of course I made my own personal portfolio website.",
+    tech_stack: "React, Css, Scss",
+    github_url: "https://github.com/CoderFaveX/portfolio-react.git",
+    demo_url: "",
   },
 ];
 

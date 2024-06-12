@@ -58,7 +58,7 @@ async function initializeDatabase() {
   try {
     await client.connect();
     database = client.db("portfolio");
-    collection = database.collection("user");
+    collection = database.collection("private");
     console.log("Connected to MongoDB Atlas");
   } catch (error) {
     console.error("Error connecting to MongoDB Atlas:", error);
