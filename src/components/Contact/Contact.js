@@ -1,7 +1,6 @@
 import React from "react";
 import SocialIcon from "../SocialIcon/SocialIcon";
 import { ContactWrapper, Email } from "./ContactElements";
-import MainApp from "../server/MainApp";
 
 function Contact() {
   return (
@@ -20,8 +19,15 @@ function Contact() {
               Send Mail
             </a>
           </Email>
-          <br /><br />
-          <MainApp />
+          <a
+            className="btn PrimaryBtn"
+            href="https://favitech.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ fontSize: 15, textAlign: "center", margin: "2rem auto 0 auto" }}
+          >
+            Reach out to FAVITECH
+          </a>
         </div>
         <SocialIcon />
       </div>

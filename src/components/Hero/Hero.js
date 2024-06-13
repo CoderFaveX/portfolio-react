@@ -10,6 +10,7 @@ import {
   ScrollDown,
   ScrollLink,
 } from "./HeroElements";
+import bg from '../bg.png';
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -31,7 +32,7 @@ function Hero() {
           </HeroLeft>
           <HeroRight>
             <Image
-              src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
+              src={bg}
               alt="man-svgrepo"
             />
           </HeroRight>
