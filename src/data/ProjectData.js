@@ -8,7 +8,7 @@ export const ProjectList = [
     id: 1,
     img: img1,
     title: "Favitech Team",
-    description: "I belong to a team of evelopers and made a large contribution towards the development of our joint portfolio.",
+    description: "I belong to a team of developers and made a large contribution towards the development of our joint portfolio.",
     tech_stack: "Html, Css, Scss, Javascript",
     github_url: "https://github.com/CoderFaveX/favitech.git",
     demo_url: "https://favitech.vercel.app",
